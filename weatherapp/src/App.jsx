@@ -59,7 +59,7 @@ Weatherdetails.propTypes={
 
 };
 function App() {
-  let apikey="0e0d1d74c686d7a9b9c1576cb7035d96"
+  let apikey=""
   const[text,setText]=useState('chennai');
   const[icon,setIcon]=useState('');
   const[temp,setTemp]=useState(0);
